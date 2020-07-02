@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Application} from '../../services/application/application.model';
+import {ApplicationService} from '../../services/application/application.service';
 
 @Component({
   selector: 'app-application',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApplicationComponent implements OnInit {
 
-  constructor() { }
+  applications: Application[];
+
+  constructor(applicationService: ApplicationService) {
+    this.applications = applicationService.getApplications();
+  }
 
   ngOnInit(): void {
   }
