@@ -6,3 +6,10 @@ export interface Application {
   passportNumber: string;
   nationalityId: number;
 }
+
+export interface Application2 {
+  appId: number;
+  appDate: Date;
+  appNo: number;
+  nationalityId: number;
+}

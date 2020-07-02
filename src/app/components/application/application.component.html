@@ -1,4 +1,13 @@
-<h3> Applications: </h3>
-<div *ngFor="let application of applications">
-  <span>{{ application.applicantName }}</span>
+<div style="margin-bottom: 20px;">
+  <h5>
+    Applications:
+  </h5>
+</div>
+
+<div>
+  <igx-grid [data]="applications" width="600px" height="400px" [allowFiltering]="true">
+    <igx-column field="applicantName" dataType="string"></igx-column>
+    <igx-column field="passportNumber" dataType="string"></igx-column>
+    <igx-column field="nationalityId" dataType="number"></igx-column>
+  </igx-grid>
 </div>
