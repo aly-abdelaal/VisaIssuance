@@ -1,9 +1,4 @@
-.application-search-title {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.application-search-title-text {
+.application-title-text {
     line-height: 18px;
     font-family: Helvetica;
     font-size: 14px;
@@ -11,4 +6,15 @@
     color: #0000009E;
     text-align: left;
     vertical-align: center;
+}
+
+.application-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+	background-color: #00000005 !important;
+}
+
+.applciations-grid-result {
+  width: 100%;
+  padding-top: 10px;
 }

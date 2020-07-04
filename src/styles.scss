@@ -9,3 +9,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .visa-issuance-app {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.seprator {
+	width: 100%;
+	height: 5px;
+	background-blend-mode: lighten, saturation, normal;
+	background-image: linear-gradient(#FFFFFFBF 0%, #FFFFFFBF 100%), linear-gradient(#FFFFFF1A 0%, #FFFFFF1A 100%), linear-gradient(#0099FF 0%, #0099FF 100%);
+}

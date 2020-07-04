@@ -1,15 +1,42 @@
 <div class="container-fluid">
   <!-- should be move to application-search component -->
-  <div class="row application-search-title">
+  <div class="row application-container">
     <div class="col-md-12">
-      <span class="application-search-title-text"> Bulk Application Processing Search </span>
+      <div class="row">
+        <div class="col-md-12">
+          <span class="application-title-text"> Bulk Application Processing Search </span>
+        </div>
+      </div>
+      <div class="row">
+        <!-- search controls here -->
+        <div class="col-md-12">search controls here</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-no-gutters">
+    <div class="col-md-12 seprator">
     </div>
   </div>
 
   <!-- should be move to application-result component -->
-  <div class="row">
+  <div class="row application-container">
     <div class="col-md-12">
-      <igx-grid [data]="applications" width="600px" height="400px" [allowFiltering]="true">
+      <div class="row">
+        <div class="col-md-12">
+          <span class="application-title-text"> Sponsor Information </span>
+        </div>
+      </div>
+      <div class="row">
+        <!-- sponsor information here -->
+        <div class="col-md-12">sponsor information here</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row applciations-grid-result">
+    <div class="col-md-12">
+      <igx-grid [data]="applications" [allowFiltering]="true">
         <igx-column field="applicantName" dataType="string"></igx-column>
         <igx-column field="passportNumber" dataType="string"></igx-column>
         <igx-column field="nationalityId" dataType="number"></igx-column>
