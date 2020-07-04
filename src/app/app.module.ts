@@ -10,6 +10,8 @@ import { ApplicationComponent } from './components/application/application.compo
 import { ProfileComponent } from './components/profile/profile.component';
 import { IgxGridModule } from 'igniteui-angular';
 import { NotFound404Component } from './components/not-found404/not-found404.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NotFound404Component } from './components/not-found404/not-found404.com
     HomeComponent,
     ApplicationComponent,
     ProfileComponent,
-    NotFound404Component
+    NotFound404Component,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

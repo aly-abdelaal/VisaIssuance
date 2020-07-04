@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'visa-issuance';
+
+  get hideHeader(): boolean {
+    return false;
+  }
+
+  get hideFooter(): boolean {
+    return false;
+  }
+
+  constructor() {
+  }
 }
