@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <!-- should be move to application-search component -->
+  <div class="row application-search-title">
+    <div class="col-md-12">
+      <span class="application-search-title-text"> Bulk Application Processing Search </span>
+    </div>
+  </div>
+
+  <!-- should be move to application-result component -->
+  <div class="row">
+    <div class="col-md-12">
+      <igx-grid [data]="applications" width="600px" height="400px" [allowFiltering]="true">
+        <igx-column field="applicantName" dataType="string"></igx-column>
+        <igx-column field="passportNumber" dataType="string"></igx-column>
+        <igx-column field="nationalityId" dataType="number"></igx-column>
+      </igx-grid>
+    </div>
+  </div>
+</div>

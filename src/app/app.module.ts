@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppDefaultComponent } from './components/app-default/app-default.component';
 import { HomeComponent } from './components/home/home.component';
-import { ApplicationComponent } from './components/application/application.component';
+import { ApplicationOverviewComponent } from './components/application-overview/application-overview.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { IgxGridModule } from 'igniteui-angular';
 import { NotFound404Component } from './components/not-found404/not-found404.component';
@@ -18,7 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     AppDefaultComponent,
     HomeComponent,
-    ApplicationComponent,
+    ApplicationOverviewComponent,
     ProfileComponent,
     NotFound404Component,
     HeaderComponent,

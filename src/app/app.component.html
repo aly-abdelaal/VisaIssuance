@@ -1,5 +1,3 @@
-<div class="container">
-  <app-header *ngIf="!hideHeader" appTheaming></app-header>
-  <router-outlet></router-outlet>
-  <app-footer *ngIf="!hideFooter"></app-footer>
-</div>
+<app-header *ngIf="!hideHeader" appTheaming></app-header>
+<router-outlet></router-outlet>
+<app-footer *ngIf="!hideFooter"></app-footer>

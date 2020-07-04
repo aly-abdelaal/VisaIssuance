@@ -4,10 +4,10 @@ import {ApplicationService} from '../../services/application/application.service
 
 @Component({
   selector: 'app-application',
-  templateUrl: './application.component.html',
-  styleUrls: ['./application.component.scss']
+  templateUrl: './application-overview.component.html',
+  styleUrls: ['./application-overview.component.scss']
 })
-export class ApplicationComponent implements OnInit {
+export class ApplicationOverviewComponent implements OnInit {
 
   applications: Application[];
 
