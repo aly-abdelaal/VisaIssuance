@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ApplicationComponent } from './components/application/application.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { IgxGridModule } from 'igniteui-angular';
+import { NotFound404Component } from './components/not-found404/not-found404.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IgxGridModule } from 'igniteui-angular';
     AppDefaultComponent,
     HomeComponent,
     ApplicationComponent,
-    ProfileComponent
+    ProfileComponent,
+    NotFound404Component
   ],
   imports: [
     BrowserModule,
