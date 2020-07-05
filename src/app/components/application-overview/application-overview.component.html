@@ -36,10 +36,85 @@
 
   <div class="row applciations-grid-result">
     <div class="col-md-12">
-      <igx-grid [data]="applications" [allowFiltering]="true">
-        <igx-column field="applicantName" dataType="string"></igx-column>
-        <igx-column field="passportNumber" dataType="string"></igx-column>
-        <igx-column field="nationality" dataType="number"></igx-column>
+      <igx-grid [data]="applications" igxPreventDocumentScroll
+                [paging]="true" [perPage]="10">
+        <igx-column  [width]="'1%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <div>{{ cell.row.index + 1 }}</div>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Picture" field="imageUrl" dataType="string" [width]="'5%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+                <igx-avatar [src]="cell.row.rowData.imageUrl" roundShape="true" size="small"> </igx-avatar>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Applicant Name" field="applicantName" dataType="string" sortable="true">
+        </igx-column>
+        <igx-column header="Gender" field="gender" dataType="string" [width]="'6%'" sortable="true">
+        </igx-column>
+        <igx-column header="Date of Birth" field="dateOfBirth" dataType="Date" sortable="true">
+        </igx-column>
+        <igx-column header="Passport Number" field="passportNumber" dataType="string" sortable="true">
+        </igx-column>
+        <igx-column header="Nationality" field="nationality" dataType="string" sortable="true">
+        </igx-column>
+        <igx-column header="Profession" field="profession" dataType="string" sortable="true">
+        </igx-column>
+        <igx-column header="Visa Type" field="visaType" dataType="string" sortable="true" [width]="'12%'">
+        </igx-column>
+        <igx-column header="Profile" field="profileMatching" dataType="string">
+        </igx-column>
+        <igx-column header="Fee" field="feeStatus" dataType="boolean" [width]="'6%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <div class="icon-sample">
+                <igx-icon>pin_drop</igx-icon>
+            </div>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Documents" field="documentStatus" dataType="boolean" [width]="'6%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <div class="icon-sample">
+                <igx-icon>pin_drop</igx-icon>
+            </div>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="IBV" field="ibvStatus" dataType="number" [width]="'5%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <div class="icon-sample">
+                <igx-icon>pin_drop</igx-icon>
+            </div>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Pre-checks" field="preChecksStatus" dataType="number" [width]="'6%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <div class="icon-sample">
+                <igx-icon>pin_drop</igx-icon>
+            </div>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Validation" field="validationStatus" dataType="number" [width]="'6%'">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <div class="icon-sample">
+                <igx-icon>pin_drop</igx-icon>
+            </div>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Final Status" field="finalStatusName" dataType="string" sortable="true">
+        </igx-column>
       </igx-grid>
     </div>
   </div>

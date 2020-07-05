@@ -17,6 +17,7 @@ export interface Application {
   preChecksStatus: ProcessingStatus;
   validationStatus: ProcessingStatus;
   finalStatus: number;
+  finalStatusName: string;
   imageUrl: string;
 }
 

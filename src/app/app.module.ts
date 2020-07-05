@@ -9,9 +9,11 @@ import { HomeComponent } from './components/home/home.component';
 import { ApplicationOverviewComponent } from './components/application-overview/application-overview.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { IgxGridModule } from 'igniteui-angular';
+import { IgxAvatarModule } from 'igniteui-angular';
 import { NotFound404Component } from './components/not-found404/not-found404.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
 
 @NgModule({
   declarations: [
@@ -22,13 +24,15 @@ import { FooterComponent } from './components/footer/footer.component';
     ProfileComponent,
     NotFound404Component,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ApplicationListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    IgxGridModule
+    IgxGridModule,
+    IgxAvatarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
