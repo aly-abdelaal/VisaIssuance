@@ -1,9 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { IgxGridModule } from 'igniteui-angular';
+import { IgxAvatarModule } from 'igniteui-angular';
+import { IgxComboModule } from 'igniteui-angular';
+import { IgxDatePickerModule } from 'igniteui-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppDefaultComponent } from './components/app-default/app-default.component';
 import { HomeComponent } from './components/home/home.component';
 import { ApplicationOverviewComponent } from './components/application-overview/application-overview.component';
@@ -12,9 +17,6 @@ import { NotFound404Component } from './components/not-found404/not-found404.com
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
-import { IgxGridModule } from 'igniteui-angular';
-import { IgxAvatarModule } from 'igniteui-angular';
-import { IgxComboModule } from 'igniteui-angular';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { IgxComboModule } from 'igniteui-angular';
     BrowserAnimationsModule,
     IgxGridModule,
     IgxAvatarModule,
-    IgxComboModule
+    IgxComboModule,
+    IgxDatePickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

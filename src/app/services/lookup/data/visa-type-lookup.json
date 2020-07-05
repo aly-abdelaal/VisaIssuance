@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Visit"
+  },
+  {
+    "id": "2",
+    "name": "EMPLOYMENT"
+  },
+  {
+    "id": "3",
+    "name": "RESIDENCE"
+  },
+  {
+    "id": "7",
+    "name": "EMPLOYMENT/I"
+  },
+  {
+    "id": "11",
+    "name": "On Arival"
+  },
+  {
+    "id": "12",
+    "name": "GCC Residents"
+  },
+  {
+    "id": "15",
+    "name": "96 Hrs"
+  },
+  {
+    "id": "43",
+    "name": "Tourist"
+  },
+  {
+    "id": "78",
+    "name": "Tourist/Multi-Long"
+  },
+  {
+    "id": "27",
+    "name": "European Nationals (Schengen)"
+  }
+]

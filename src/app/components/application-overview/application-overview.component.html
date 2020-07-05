@@ -9,7 +9,7 @@
       </div>
       <div class="row search-controls-container">
         <!-- search controls here -->
-        <div class="col-md-10">
+        <div class="col-md-12">
           <div class="row">
             <div class="col-md-2">
               <igx-input-group type="search" class="searchbar-1">
@@ -19,9 +19,32 @@
             </div>
             <div class="col-md-2">
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
-              [data]="visaTypeLookup" [displayKey]="'name'" [valueKey]="'id'"
-              placeholder="Select Visa Type" searchPlaceholder="Search...">
-          </igx-combo>
+                         [data]="visaTypeLookup" [displayKey]="'name'"
+                         [valueKey]="'id'" placeholder="Select Visa Type"
+                         searchPlaceholder="Search...">
+              </igx-combo>
+            </div>
+            <div class="col-md-2">
+              <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+                         [data]="applicationStatusLookup" [displayKey]="'name'"
+                         [valueKey]="'id'" placeholder="Select Application Status"
+                         searchPlaceholder="Search...">
+              </igx-combo>
+            </div>
+            <div class="col-md-2">
+              <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+                         [data]="applicationPriorityLookup" [displayKey]="'name'"
+                         [valueKey]="'id'" placeholder="Select Application Priority"
+                         searchPlaceholder="Search...">
+              </igx-combo>
+            </div>
+            <div class="col-md-2">
+              <igx-date-picker [(ngModel)]="startDate">
+              </igx-date-picker>
+            </div>
+            <div class="col-md-2">
+              <igx-date-picker [(ngModel)]="endDate">
+              </igx-date-picker>
             </div>
           </div>
         </div>

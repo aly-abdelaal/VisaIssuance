@@ -1,0 +1,1556 @@
+[
+  {
+      "name": {
+          "ar": "افغانستان",
+          "en": "AFGHANISTAN"
+      },
+      "loopkupId": "209"
+  },
+  {
+      "name": {
+          "ar": "البانيا",
+          "en": "ALBANIA"
+      },
+      "loopkupId": "473"
+  },
+  {
+      "name": {
+          "ar": "الجزائر",
+          "en": "ALGERIA"
+      },
+      "loopkupId": "131"
+  },
+  {
+      "name": {
+          "ar": "اندورا",
+          "en": "ANDORRA"
+      },
+      "loopkupId": "445"
+  },
+  {
+      "name": {
+          "ar": "انجولا",
+          "en": "ANGOLA"
+      },
+      "loopkupId": "305"
+  },
+  {
+      "name": {
+          "ar": "انتيغوا",
+          "en": "ANTIGUA"
+      },
+      "loopkupId": "251"
+  },
+  {
+      "name": {
+          "ar": "أنتيجوا و باربودا",
+          "en": "ANTIGUA & BARBUDA"
+      },
+      "loopkupId": "663"
+  },
+  {
+      "name": {
+          "ar": "الارجنتين",
+          "en": "ARGENTINA"
+      },
+      "loopkupId": "605"
+  },
+  {
+      "name": {
+          "ar": "ارمينيا",
+          "en": "ARMENIA"
+      },
+      "loopkupId": "263"
+  },
+  {
+      "name": {
+          "ar": "استراليا",
+          "en": "AUSTRALIA"
+      },
+      "loopkupId": "701"
+  },
+  {
+      "name": {
+          "ar": "النمسا",
+          "en": "AUSTRIA"
+      },
+      "loopkupId": "417"
+  },
+  {
+      "name": {
+          "ar": "اذربيجان",
+          "en": "AZERBAIJAN"
+      },
+      "loopkupId": "265"
+  },
+  {
+      "name": {
+          "ar": "جزر الباهاما",
+          "en": "BAHAMAS"
+      },
+      "loopkupId": "619"
+  },
+  {
+      "name": {
+          "ar": "البحرين",
+          "en": "BAHRAIN"
+      },
+      "loopkupId": "107"
+  },
+  {
+      "name": {
+          "ar": "بنجلاديش",
+          "en": "BANGLADESH"
+      },
+      "loopkupId": "207"
+  },
+  {
+      "name": {
+          "ar": "بربادوس",
+          "en": "BARBADOS"
+      },
+      "loopkupId": "657"
+  },
+  {
+      "name": {
+          "ar": "بيلاروس",
+          "en": "Belarus"
+      },
+      "loopkupId": "490"
+  },
+  {
+      "name": {
+          "ar": "بلجيكا",
+          "en": "BELGIUM"
+      },
+      "loopkupId": "411"
+  },
+  {
+      "name": {
+          "ar": "بيليز",
+          "en": "Belize"
+      },
+      "loopkupId": "651"
+  },
+  {
+      "name": {
+          "ar": "بنين",
+          "en": "BENIN"
+      },
+      "loopkupId": "369"
+  },
+  {
+      "name": {
+          "ar": "برمودا",
+          "en": "BERMUDA"
+      },
+      "loopkupId": "634"
+  },
+  {
+      "name": {
+          "ar": "بوتان",
+          "en": "BHUTAN"
+      },
+      "loopkupId": "211"
+  },
+  {
+      "name": {
+          "ar": "بوليفيا",
+          "en": "BOLIVIA"
+      },
+      "loopkupId": "609"
+  },
+  {
+      "name": {
+          "ar": "البوسنة و الهرسك",
+          "en": "BOSNIA AND HERZEGOVINA"
+      },
+      "loopkupId": "463"
+  },
+  {
+      "name": {
+          "ar": "بتسوانا",
+          "en": "BOTSWANA"
+      },
+      "loopkupId": "375"
+  },
+  {
+      "name": {
+          "ar": "البرازيل",
+          "en": "BRAZIL"
+      },
+      "loopkupId": "603"
+  },
+  {
+      "name": {
+          "ar": "بريطانيا",
+          "en": "BRITAIN"
+      },
+      "loopkupId": "401"
+  },
+  {
+      "name": {
+          "ar": "بروناي",
+          "en": "BRUNEI"
+      },
+      "loopkupId": "253"
+  },
+  {
+      "name": {
+          "ar": "بلغاريا",
+          "en": "BULGARIA"
+      },
+      "loopkupId": "465"
+  },
+  {
+      "name": {
+          "ar": "بوركينا فاسو",
+          "en": "Burkina Faso"
+      },
+      "loopkupId": "351"
+  },
+  {
+      "name": {
+          "ar": "بوروندي",
+          "en": "BURUNDI"
+      },
+      "loopkupId": "307"
+  },
+  {
+      "name": {
+          "ar": "كمبوديا",
+          "en": "CAMBODIA"
+      },
+      "loopkupId": "215"
+  },
+  {
+      "name": {
+          "ar": "الكاميرون",
+          "en": "CAMEROON"
+      },
+      "loopkupId": "309"
+  },
+  {
+      "name": {
+          "ar": "كندا",
+          "en": "CANADA"
+      },
+      "loopkupId": "501"
+  },
+  {
+      "name": {
+          "ar": "كابو فيردي",
+          "en": "CAPE VERDE"
+      },
+      "loopkupId": "393"
+  },
+  {
+      "name": {
+          "ar": "جزر كايمن",
+          "en": "CAYMAN ISLANDS"
+      },
+      "loopkupId": "503"
+  },
+  {
+      "name": {
+          "ar": "افريقيا الوسطى",
+          "en": "CENTRAL AFRICAN REPUBLIC"
+      },
+      "loopkupId": "363"
+  },
+  {
+      "name": {
+          "ar": "تشاد",
+          "en": "CHAD"
+      },
+      "loopkupId": "311"
+  },
+  {
+      "name": {
+          "ar": "تشيلي",
+          "en": "CHILE"
+      },
+      "loopkupId": "607"
+  },
+  {
+      "name": {
+          "ar": "الصين",
+          "en": "CHINA"
+      },
+      "loopkupId": "219"
+  },
+  {
+      "name": {
+          "ar": "كولومبيا",
+          "en": "COLOMBIA"
+      },
+      "loopkupId": "611"
+  },
+  {
+      "name": {
+          "ar": "كمنولث دومينكا\n",
+          "en": "COMMONWEALTH OF DOMINICA"
+      },
+      "loopkupId": "642"
+  },
+  {
+      "name": {
+          "ar": "جزر القمر",
+          "en": "COMOROS"
+      },
+      "loopkupId": "301"
+  },
+  {
+      "name": {
+          "ar": "جمهورية الكونغو",
+          "en": "Congo"
+      },
+      "loopkupId": "313"
+  },
+  {
+      "name": {
+          "ar": "كوستاريكا",
+          "en": "COSTA RICA"
+      },
+      "loopkupId": "623"
+  },
+  {
+      "name": {
+          "ar": "كرواتيا",
+          "en": "CROATIA"
+      },
+      "loopkupId": "453"
+  },
+  {
+      "name": {
+          "ar": "كوبا",
+          "en": "CUBA"
+      },
+      "loopkupId": "621"
+  },
+  {
+      "name": {
+          "ar": "قبرص",
+          "en": "CYPRUS"
+      },
+      "loopkupId": "431"
+  },
+  {
+      "name": {
+          "ar": "التشيك",
+          "en": "CZECH REPUBLIC"
+      },
+      "loopkupId": "452"
+  },
+  {
+      "name": {
+          "ar": "داغستان",
+          "en": "DAGESTAN"
+      },
+      "loopkupId": "274"
+  },
+  {
+      "name": {
+          "ar": "داهومي",
+          "en": "DAHOMEY"
+      },
+      "loopkupId": "315"
+  },
+  {
+      "name": {
+          "ar": "جمهورية الكونغو الديمقراطية",
+          "en": "Democratic Republic of the Congo"
+      },
+      "loopkupId": "361"
+  },
+  {
+      "name": {
+          "ar": "الدنمارك",
+          "en": "Denmark"
+      },
+      "loopkupId": "423"
+  },
+  {
+      "name": {
+          "ar": "جيبوتي",
+          "en": "DJIBOUTI"
+      },
+      "loopkupId": "141"
+  },
+  {
+      "name": {
+          "ar": "الجمهورية الدومينيكية - الدومنيكان",
+          "en": "DOMINICAN REPUBLIC"
+      },
+      "loopkupId": "625"
+  },
+  {
+      "name": {
+          "ar": "الاكوادور",
+          "en": "ECUADOR"
+      },
+      "loopkupId": "613"
+  },
+  {
+      "name": {
+          "ar": "مصر",
+          "en": "EGYPT"
+      },
+      "loopkupId": "125"
+  },
+  {
+      "name": {
+          "ar": "السلفادور",
+          "en": "EL SALVADOR"
+      },
+      "loopkupId": "635"
+  },
+  {
+      "name": {
+          "ar": "غينيا الاستوائي",
+          "en": "Equatorial Guinea"
+      },
+      "loopkupId": "750"
+  },
+  {
+      "name": {
+          "ar": "ارتيريا",
+          "en": "ERITREN"
+      },
+      "loopkupId": "303"
+  },
+  {
+      "name": {
+          "ar": "استونيا",
+          "en": "ESTONIA"
+      },
+      "loopkupId": "459"
+  },
+  {
+      "name": {
+          "ar": "اثيوبيا",
+          "en": "ETHIOPIA"
+      },
+      "loopkupId": "317"
+  },
+  {
+      "name": {
+          "ar": "جزر الفارو",
+          "en": "FAROE ISLANDS"
+      },
+      "loopkupId": "276"
+  },
+  {
+      "name": {
+          "ar": "فيجي",
+          "en": "FIJI"
+      },
+      "loopkupId": "705"
+  },
+  {
+      "name": {
+          "ar": "فنلندا",
+          "en": "FINLAND"
+      },
+      "loopkupId": "433"
+  },
+  {
+      "name": {
+          "ar": "فرنسا",
+          "en": "FRANCE"
+      },
+      "loopkupId": "403"
+  },
+  {
+      "name": {
+          "ar": "غيانا الفرنسية",
+          "en": "FRENCH GUIANA"
+      },
+      "loopkupId": "659"
+  },
+  {
+      "name": {
+          "ar": "الجابون",
+          "en": "GABON"
+      },
+      "loopkupId": "371"
+  },
+  {
+      "name": {
+          "ar": "جامبيا",
+          "en": "GAMBIA"
+      },
+      "loopkupId": "387"
+  },
+  {
+      "name": {
+          "ar": "جورجيا",
+          "en": "GEORGIA"
+      },
+      "loopkupId": "273"
+  },
+  {
+      "name": {
+          "ar": "المانيا",
+          "en": "GERMANY"
+      },
+      "loopkupId": "407"
+  },
+  {
+      "name": {
+          "ar": "غانا",
+          "en": "GHANA"
+      },
+      "loopkupId": "319"
+  },
+  {
+      "name": {
+          "ar": "اليونان",
+          "en": "GREECE"
+      },
+      "loopkupId": "429"
+  },
+  {
+      "name": {
+          "ar": "جرينلاند - الرأس الاخضر",
+          "en": "Greenland"
+      },
+      "loopkupId": "365"
+  },
+  {
+      "name": {
+          "ar": "جرينادا",
+          "en": "GRENADA"
+      },
+      "loopkupId": "649"
+  },
+  {
+      "name": {
+          "ar": "جواتيمالا",
+          "en": "GUATEMALA"
+      },
+      "loopkupId": "627"
+  },
+  {
+      "name": {
+          "ar": "غينيا-بيساو",
+          "en": "GUINEA-BISSAU"
+      },
+      "loopkupId": "385"
+  },
+  {
+      "name": {
+          "ar": "غيانا",
+          "en": "GUYANA"
+      },
+      "loopkupId": "653"
+  },
+  {
+      "name": {
+          "ar": "هاييتي",
+          "en": "HAITI"
+      },
+      "loopkupId": "639"
+  },
+  {
+      "name": {
+          "ar": "هولندا",
+          "en": "HOLLAND"
+      },
+      "loopkupId": "409"
+  },
+  {
+      "name": {
+          "ar": "هندوراس",
+          "en": "HONDURAS"
+      },
+      "loopkupId": "647"
+  },
+  {
+      "name": {
+          "ar": "هونج كونج",
+          "en": "HONG KONG"
+      },
+      "loopkupId": "223"
+  },
+  {
+      "name": {
+          "ar": "المجر - هنجاريا",
+          "en": "Hungary"
+      },
+      "loopkupId": "467"
+  },
+  {
+      "name": {
+          "ar": "آيسلندا",
+          "en": "Iceland"
+      },
+      "loopkupId": "443"
+  },
+  {
+      "name": {
+          "ar": "الهند",
+          "en": "INDIA"
+      },
+      "loopkupId": "205"
+  },
+  {
+      "name": {
+          "ar": "اندونيسيا",
+          "en": "INDONESIA"
+      },
+      "loopkupId": "243"
+  },
+  {
+      "name": {
+          "ar": "ايران",
+          "en": "IRAN"
+      },
+      "loopkupId": "201"
+  },
+  {
+      "name": {
+          "ar": "العراق",
+          "en": "IRAQ"
+      },
+      "loopkupId": "113"
+  },
+  {
+      "name": {
+          "ar": "ايرلندا",
+          "en": "IRELAND"
+      },
+      "loopkupId": "427"
+  },
+  {
+      "name": {
+          "ar": "ايطاليا",
+          "en": "ITALY"
+      },
+      "loopkupId": "405"
+  },
+  {
+      "name": {
+          "ar": "ساحل العاج",
+          "en": "IVORY COAST"
+      },
+      "loopkupId": "323"
+  },
+  {
+      "name": {
+          "ar": "جمايكا",
+          "en": "Jamaica"
+      },
+      "loopkupId": "629"
+  },
+  {
+      "name": {
+          "ar": "اليابان",
+          "en": "JAPAN"
+      },
+      "loopkupId": "231"
+  },
+  {
+      "name": {
+          "ar": "الاردن",
+          "en": "JORDAN"
+      },
+      "loopkupId": "121"
+  },
+  {
+      "name": {
+          "ar": "كازاخستان",
+          "en": "KAZAKHSTAN"
+      },
+      "loopkupId": "261"
+  },
+  {
+      "name": {
+          "ar": "كينيا",
+          "en": "KENYA"
+      },
+      "loopkupId": "325"
+  },
+  {
+      "name": {
+          "ar": "كينج استون",
+          "en": "KINGSTONE"
+      },
+      "loopkupId": "667"
+  },
+  {
+      "name": {
+          "ar": "كيريباتي",
+          "en": "KIRIBATI"
+      },
+      "loopkupId": "391"
+  },
+  {
+      "name": {
+          "ar": "كردستان",
+          "en": "Kurdistan"
+      },
+      "loopkupId": "801"
+  },
+  {
+      "name": {
+          "ar": "الكويت",
+          "en": "KUWAIT"
+      },
+      "loopkupId": "105"
+  },
+  {
+      "name": {
+          "ar": "كيرجيز",
+          "en": "Kyrgyzstan"
+      },
+      "loopkupId": "489"
+  },
+  {
+      "name": {
+          "ar": "لاوس",
+          "en": "Laos"
+      },
+      "loopkupId": "245"
+  },
+  {
+      "name": {
+          "ar": "لاتفيا",
+          "en": "LATVIA"
+      },
+      "loopkupId": "461"
+  },
+  {
+      "name": {
+          "ar": "مقيم لاتفيا",
+          "en": "LATVIA RES"
+      },
+      "loopkupId": "806"
+  },
+  {
+      "name": {
+          "ar": "لبنان",
+          "en": "LEBANON"
+      },
+      "loopkupId": "117"
+  },
+  {
+      "name": {
+          "ar": "ليسوتو",
+          "en": "LESOTHO"
+      },
+      "loopkupId": "377"
+  },
+  {
+      "name": {
+          "ar": "ليبيريا",
+          "en": "LIBERIA"
+      },
+      "loopkupId": "327"
+  },
+  {
+      "name": {
+          "ar": "ليبيا",
+          "en": "LIBYA"
+      },
+      "loopkupId": "127"
+  },
+  {
+      "name": {
+          "ar": "ليخنشتين",
+          "en": "LIECHTENSTEIN"
+      },
+      "loopkupId": "449"
+  },
+  {
+      "name": {
+          "ar": "ليتوانيا",
+          "en": "LITHUANIA"
+      },
+      "loopkupId": "457"
+  },
+  {
+      "name": {
+          "ar": "لوكسمبورج",
+          "en": "LUXEMBOURG"
+      },
+      "loopkupId": "413"
+  },
+  {
+      "name": {
+          "ar": "ماكاو",
+          "en": "MACAU"
+      },
+      "loopkupId": "259"
+  },
+  {
+      "name": {
+          "ar": "مدغشقر",
+          "en": "MADAGASCAR"
+      },
+      "loopkupId": "329"
+  },
+  {
+      "name": {
+          "ar": "مالاوي",
+          "en": "Malawi"
+      },
+      "loopkupId": "333"
+  },
+  {
+      "name": {
+          "ar": "ماليزيا",
+          "en": "MALAYSIA"
+      },
+      "loopkupId": "241"
+  },
+  {
+      "name": {
+          "ar": "المالديف",
+          "en": "Maldives"
+      },
+      "loopkupId": "257"
+  },
+  {
+      "name": {
+          "ar": "مالى",
+          "en": "MALI"
+      },
+      "loopkupId": "335"
+  },
+  {
+      "name": {
+          "ar": "مالطا",
+          "en": "MALTA"
+      },
+      "loopkupId": "435"
+  },
+  {
+      "name": {
+          "ar": "جزر ماريانا",
+          "en": "MARIANA ISLANDS"
+      },
+      "loopkupId": "721"
+  },
+  {
+      "name": {
+          "ar": "جزر مارشال",
+          "en": "MARSHALL ISLAND"
+      },
+      "loopkupId": "727"
+  },
+  {
+      "name": {
+          "ar": "مارتينيك",
+          "en": "MARTINIQUE"
+      },
+      "loopkupId": "661"
+  },
+  {
+      "name": {
+          "ar": "موريتانيا",
+          "en": "MAURITANIA"
+      },
+      "loopkupId": "135"
+  },
+  {
+      "name": {
+          "ar": "موريشيوس",
+          "en": "MAURITIUS"
+      },
+      "loopkupId": "367"
+  },
+  {
+      "name": {
+          "ar": "المكسيك",
+          "en": "MEXICO"
+      },
+      "loopkupId": "601"
+  },
+  {
+      "name": {
+          "ar": "مايكرونيزيا",
+          "en": "MICRONESIA"
+      },
+      "loopkupId": "732"
+  },
+  {
+      "name": {
+          "ar": "مولدافيا",
+          "en": "MOLDAVIA"
+      },
+      "loopkupId": "481"
+  },
+  {
+      "name": {
+          "ar": "موناكو",
+          "en": "MONACO"
+      },
+      "loopkupId": "439"
+  },
+  {
+      "name": {
+          "ar": "منغوليا",
+          "en": "MONGOLIA"
+      },
+      "loopkupId": "249"
+  },
+  {
+      "name": {
+          "ar": "الجبل الأسود",
+          "en": "Montenegro"
+      },
+      "loopkupId": "488"
+  },
+  {
+      "name": {
+          "ar": "المغرب",
+          "en": "MOROCCO"
+      },
+      "loopkupId": "133"
+  },
+  {
+      "name": {
+          "ar": "موزمبيق",
+          "en": "MOZAMBIQUE"
+      },
+      "loopkupId": "337"
+  },
+  {
+      "name": {
+          "ar": "ناميبيا",
+          "en": "NAMIBIA"
+      },
+      "loopkupId": "373"
+  },
+  {
+      "name": {
+          "ar": "نيبال",
+          "en": "NEPAL"
+      },
+      "loopkupId": "235"
+  },
+  {
+      "name": {
+          "ar": "كاليدونا الجديدة",
+          "en": "NEW CALEDONIA"
+      },
+      "loopkupId": "715"
+  },
+  {
+      "name": {
+          "ar": "غينيا الجديدة",
+          "en": "NEW GUINEA"
+      },
+      "loopkupId": "707"
+  },
+  {
+      "name": {
+          "ar": "نيوزيلندا",
+          "en": "New Zealand"
+      },
+      "loopkupId": "703"
+  },
+  {
+      "name": {
+          "ar": "نيكاراجوا",
+          "en": "NICARAGUA"
+      },
+      "loopkupId": "631"
+  },
+  {
+      "name": {
+          "ar": "النيجر",
+          "en": "NIGER"
+      },
+      "loopkupId": "339"
+  },
+  {
+      "name": {
+          "ar": "نيجيريا",
+          "en": "Nigeria"
+      },
+      "loopkupId": "341"
+  },
+  {
+      "name": {
+          "ar": "كوريا الشمالية",
+          "en": "NORTH KOREA"
+      },
+      "loopkupId": "229"
+  },
+  {
+      "name": {
+          "ar": "النرويج",
+          "en": "NORWAY"
+      },
+      "loopkupId": "421"
+  },
+  {
+      "name": {
+          "ar": "باكستان",
+          "en": "PAKISTAN"
+      },
+      "loopkupId": "203"
+  },
+  {
+      "name": {
+          "ar": "بالاو",
+          "en": "PALAU"
+      },
+      "loopkupId": "669"
+  },
+  {
+      "name": {
+          "ar": "فلسطين",
+          "en": "PALESTINE"
+      },
+      "loopkupId": "123"
+  },
+  {
+      "name": {
+          "ar": "بنما",
+          "en": "PANAMA"
+      },
+      "loopkupId": "633"
+  },
+  {
+      "name": {
+          "ar": "بابوا غينيا الجديدة",
+          "en": "Papua New Guinea"
+      },
+      "loopkupId": "731"
+  },
+  {
+      "name": {
+          "ar": "باراغواي",
+          "en": "Paraguay"
+      },
+      "loopkupId": "645"
+  },
+  {
+      "name": {
+          "ar": "بيرو",
+          "en": "PERU"
+      },
+      "loopkupId": "615"
+  },
+  {
+      "name": {
+          "ar": "الفلبين",
+          "en": "PHILIPPINES"
+      },
+      "loopkupId": "237"
+  },
+  {
+      "name": {
+          "ar": "بولندا",
+          "en": "Poland"
+      },
+      "loopkupId": "471"
+  },
+  {
+      "name": {
+          "ar": "البرتغال",
+          "en": "PORTUGAL"
+      },
+      "loopkupId": "425"
+  },
+  {
+      "name": {
+          "ar": "بورتوريكو",
+          "en": "PUERTO RICO"
+      },
+      "loopkupId": "641"
+  },
+  {
+      "name": {
+          "ar": "قطر",
+          "en": "QATAR"
+      },
+      "loopkupId": "109"
+  },
+  {
+      "name": {
+          "ar": "مقدونيا",
+          "en": "REPUBL. OF MACEDONIA"
+      },
+      "loopkupId": "485"
+  },
+  {
+      "name": {
+          "ar": "جمهوريه غينيا",
+          "en": "Republic of Guinea"
+      },
+      "loopkupId": "321"
+  },
+  {
+      "name": {
+          "ar": "جمهورية كوسوفو",
+          "en": "Republic of Kosovo"
+      },
+      "loopkupId": "476"
+  },
+  {
+      "name": {
+          "ar": "جمهورية ميانمار",
+          "en": "Republic of MYANMAR"
+      },
+      "loopkupId": "213"
+  },
+  {
+      "name": {
+          "ar": "للجمهورية ناورو",
+          "en": "REPUBLIC OF NAURU"
+      },
+      "loopkupId": "737"
+  },
+  {
+      "name": {
+          "ar": "ارض الصومال",
+          "en": "REPUBLIC OF SOMALILAND"
+      },
+      "loopkupId": "140"
+  },
+  {
+      "name": {
+          "ar": "رومانيا",
+          "en": "ROMANIA"
+      },
+      "loopkupId": "469"
+  },
+  {
+      "name": {
+          "ar": "روسيا",
+          "en": "RUSSIA"
+      },
+      "loopkupId": "477"
+  },
+  {
+      "name": {
+          "ar": "رواندا",
+          "en": "RWANDA"
+      },
+      "loopkupId": "343"
+  },
+  {
+      "name": {
+          "ar": "كيتس-نافيس سانت",
+          "en": "SAINT KITTS AND NEVIS"
+      },
+      "loopkupId": "487"
+  },
+  {
+      "name": {
+          "ar": "سانت لوسيا",
+          "en": "SAINT LUCIA"
+      },
+      "loopkupId": "491"
+  },
+  {
+      "name": {
+          "ar": "سانت فينسنت",
+          "en": "SAINT VINSENT"
+      },
+      "loopkupId": "665"
+  },
+  {
+      "name": {
+          "ar": "ساموا",
+          "en": "Samoa"
+      },
+      "loopkupId": "729"
+  },
+  {
+      "name": {
+          "ar": "سان مارينو",
+          "en": "SAN MARINO"
+      },
+      "loopkupId": "447"
+  },
+  {
+      "name": {
+          "ar": "ساو تومي وبرينسيبي",
+          "en": "Sao Tome and Principe"
+      },
+      "loopkupId": "395"
+  },
+  {
+      "name": {
+          "ar": "السعوديه",
+          "en": "SAUDI ARABIA"
+      },
+      "loopkupId": "103"
+  },
+  {
+      "name": {
+          "ar": "اقليمي",
+          "en": "SEALING.SHEAP"
+      },
+      "loopkupId": "803"
+  },
+  {
+      "name": {
+          "ar": "السنغال",
+          "en": "SENEGAL"
+      },
+      "loopkupId": "345"
+  },
+  {
+      "name": {
+          "ar": "صربيا",
+          "en": "SERBIA"
+      },
+      "loopkupId": "462"
+  },
+  {
+      "name": {
+          "ar": "سيشل",
+          "en": "SEYCHELLES"
+      },
+      "loopkupId": "383"
+  },
+  {
+      "name": {
+          "ar": "سيراليون",
+          "en": "SIERRA LEONE"
+      },
+      "loopkupId": "347"
+  },
+  {
+      "name": {
+          "ar": "سنغافورة",
+          "en": "SINGAPORE"
+      },
+      "loopkupId": "225"
+  },
+  {
+      "name": {
+          "ar": "سلوفاكيا",
+          "en": "SLOVAKIA"
+      },
+      "loopkupId": "454"
+  },
+  {
+      "name": {
+          "ar": "سلوفينيا",
+          "en": "SLOVENIA"
+      },
+      "loopkupId": "455"
+  },
+  {
+      "name": {
+          "ar": "جزر سولومون",
+          "en": "SOLOMON ISLAND"
+      },
+      "loopkupId": "725"
+  },
+  {
+      "name": {
+          "ar": "الصومال",
+          "en": "SOMALIA"
+      },
+      "loopkupId": "139"
+  },
+  {
+      "name": {
+          "ar": "جنوب افريقيا",
+          "en": "SOUTH AFRICA"
+      },
+      "loopkupId": "349"
+  },
+  {
+      "name": {
+          "ar": "جنوب السودان",
+          "en": "South Sudan"
+      },
+      "loopkupId": "138"
+  },
+  {
+      "name": {
+          "ar": "اسبانيا",
+          "en": "SPAIN"
+      },
+      "loopkupId": "437"
+  },
+  {
+      "name": {
+          "ar": "سيرلانكا",
+          "en": "SRI LANKA"
+      },
+      "loopkupId": "217"
+  },
+  {
+      "name": {
+          "ar": "سانت كريستوفر",
+          "en": "ST CHRISTOPHER"
+      },
+      "loopkupId": "389"
+  },
+  {
+      "name": {
+          "ar": "سنت هلينا",
+          "en": "ST HELENA"
+      },
+      "loopkupId": "606"
+  },
+  {
+      "name": {
+          "ar": "السودان",
+          "en": "SUDAN"
+      },
+      "loopkupId": "137"
+  },
+  {
+      "name": {
+          "ar": "سلطنة عمان",
+          "en": "SULTANATE OF OMAN"
+      },
+      "loopkupId": "111"
+  },
+  {
+      "name": {
+          "ar": "سورينام",
+          "en": "SURINAME"
+      },
+      "loopkupId": "655"
+  },
+  {
+      "name": {
+          "ar": "سوازيلند",
+          "en": "Swaziland"
+      },
+      "loopkupId": "379"
+  },
+  {
+      "name": {
+          "ar": "السويد",
+          "en": "SWEDEN"
+      },
+      "loopkupId": "419"
+  },
+  {
+      "name": {
+          "ar": "سويسرا",
+          "en": "SWITZERLAND"
+      },
+      "loopkupId": "415"
+  },
+  {
+      "name": {
+          "ar": "سوريا",
+          "en": "SYRIA"
+      },
+      "loopkupId": "119"
+  },
+  {
+      "name": {
+          "ar": "تاهيتي",
+          "en": "TAHITI"
+      },
+      "loopkupId": "713"
+  },
+  {
+      "name": {
+          "ar": "تايوان",
+          "en": "TAIWAN"
+      },
+      "loopkupId": "221"
+  },
+  {
+      "name": {
+          "ar": "طاجكستان",
+          "en": "TAJIKISTAN"
+      },
+      "loopkupId": "267"
+  },
+  {
+      "name": {
+          "ar": "تنزانيا",
+          "en": "TANZANIA"
+      },
+      "loopkupId": "353"
+  },
+  {
+      "name": {
+          "ar": "تسمانيا",
+          "en": "TASMANIA"
+      },
+      "loopkupId": "711"
+  },
+  {
+      "name": {
+          "ar": "تايلاند",
+          "en": "THAILAND"
+      },
+      "loopkupId": "239"
+  },
+  {
+      "name": {
+          "ar": "جمهورية كوريا",
+          "en": "The Republic of Korea"
+      },
+      "loopkupId": "227"
+  },
+  {
+      "name": {
+          "ar": "تيمور الشرقية",
+          "en": "TIMOR-LESTE"
+      },
+      "loopkupId": "709"
+  },
+  {
+      "name": {
+          "ar": "توجو",
+          "en": "TOGO"
+      },
+      "loopkupId": "355"
+  },
+  {
+      "name": {
+          "ar": "تونغا",
+          "en": "Tonga"
+      },
+      "loopkupId": "255"
+  },
+  {
+      "name": {
+          "ar": "ترينيداد وتوباغو",
+          "en": "Trinidad and Tobago"
+      },
+      "loopkupId": "637"
+  },
+  {
+      "name": {
+          "ar": "تونس",
+          "en": "TUNISIA"
+      },
+      "loopkupId": "129"
+  },
+  {
+      "name": {
+          "ar": "تركيا",
+          "en": "TURKEY"
+      },
+      "loopkupId": "475"
+  },
+  {
+      "name": {
+          "ar": "تركمنستان",
+          "en": "TURKMENISTAN"
+      },
+      "loopkupId": "269"
+  },
+  {
+      "name": {
+          "ar": "توفالو",
+          "en": "TUVALU"
+      },
+      "loopkupId": "735"
+  },
+  {
+      "name": {
+          "ar": "اوغندا",
+          "en": "UGANDA"
+      },
+      "loopkupId": "357"
+  },
+  {
+      "name": {
+          "ar": "اوكرانيا",
+          "en": "UKRAINE"
+      },
+      "loopkupId": "479"
+  },
+  {
+      "name": {
+          "ar": "الإمارات",
+          "en": "United Arab Emirates"
+      },
+      "loopkupId": "101"
+  },
+  {
+      "name": {
+          "ar": "الأمم المتحدة",
+          "en": "United Nations"
+      },
+      "loopkupId": "505"
+  },
+  {
+      "name": {
+          "ar": "امريكا",
+          "en": "United States of America"
+      },
+      "loopkupId": "502"
+  },
+  {
+      "name": {
+          "ar": "اوراجواي",
+          "en": "URUGUAY"
+      },
+      "loopkupId": "643"
+  },
+  {
+      "name": {
+          "ar": "اوزبكستان",
+          "en": "UZBEKISTAN"
+      },
+      "loopkupId": "271"
+  },
+  {
+      "name": {
+          "ar": "جزر فانفاتو",
+          "en": "VANUATU"
+      },
+      "loopkupId": "733"
+  },
+  {
+      "name": {
+          "ar": "الفاتيكان",
+          "en": "VATICAN"
+      },
+      "loopkupId": "441"
+  },
+  {
+      "name": {
+          "ar": "فنزويلا",
+          "en": "VENEZUELA"
+      },
+      "loopkupId": "617"
+  },
+  {
+      "name": {
+          "ar": "فيتنام",
+          "en": "VIETNAM"
+      },
+      "loopkupId": "233"
+  },
+  {
+      "name": {
+          "ar": "اليمن",
+          "en": "YEMEN"
+      },
+      "loopkupId": "115"
+  },
+  {
+      "name": {
+          "ar": "يوغسلافيا",
+          "en": "YUGOSLAVIA"
+      },
+      "loopkupId": "464"
+  },
+  {
+      "name": {
+          "ar": "زامبيا",
+          "en": "ZAMBIA"
+      },
+      "loopkupId": "359"
+  },
+  {
+      "name": {
+          "ar": "زيمبابوي",
+          "en": "ZIMBABWE"
+      },
+      "loopkupId": "331"
+  }
+]
