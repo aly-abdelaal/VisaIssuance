@@ -8,12 +8,13 @@ import { AppDefaultComponent } from './components/app-default/app-default.compon
 import { HomeComponent } from './components/home/home.component';
 import { ApplicationOverviewComponent } from './components/application-overview/application-overview.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { IgxGridModule } from 'igniteui-angular';
-import { IgxAvatarModule } from 'igniteui-angular';
 import { NotFound404Component } from './components/not-found404/not-found404.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
+import { IgxGridModule } from 'igniteui-angular';
+import { IgxAvatarModule } from 'igniteui-angular';
+import { IgxComboModule } from 'igniteui-angular';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ApplicationListComponent } from './components/application-overview/appl
     AppRoutingModule,
     BrowserAnimationsModule,
     IgxGridModule,
-    IgxAvatarModule
+    IgxAvatarModule,
+    IgxComboModule
   ],
   providers: [],
   bootstrap: [AppComponent]

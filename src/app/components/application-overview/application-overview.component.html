@@ -7,9 +7,24 @@
           <span class="application-title-text"> Bulk Application Processing Search </span>
         </div>
       </div>
-      <div class="row">
+      <div class="row search-controls-container">
         <!-- search controls here -->
-        <div class="col-md-12">search controls here</div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-2">
+              <igx-input-group type="search" class="searchbar-1">
+                <input igxInput type="text">
+                <label igxLabel>Sponsor File Number</label>
+              </igx-input-group>
+            </div>
+            <div class="col-md-2">
+              <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+              [data]="visaTypeLookup" [displayKey]="'name'" [valueKey]="'id'"
+              placeholder="Select Visa Type" searchPlaceholder="Search...">
+          </igx-combo>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -36,9 +51,8 @@
 
   <div class="row applciations-grid-result">
     <div class="col-md-12">
-      <igx-grid [data]="applications" igxPreventDocumentScroll
-                [paging]="true" [perPage]="10">
-        <igx-column  [width]="'1%'">
+      <igx-grid [data]="applications" igxPreventDocumentScroll [paging]="true" [perPage]="10">
+        <igx-column [width]="'1%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div>{{ cell.row.index + 1 }}</div>
@@ -48,7 +62,7 @@
         <igx-column header="Picture" field="imageUrl" dataType="string" [width]="'5%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
-                <igx-avatar [src]="cell.row.rowData.imageUrl" roundShape="true" size="small"> </igx-avatar>
+              <igx-avatar [src]="cell.row.rowData.imageUrl" roundShape="true" size="small"> </igx-avatar>
             </div>
           </ng-template>
         </igx-column>
@@ -72,8 +86,8 @@
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div class="icon-sample">
-                <igx-icon>pin_drop</igx-icon>
-            </div>
+                <igx-icon>check</igx-icon>
+              </div>
             </div>
           </ng-template>
         </igx-column>
@@ -82,7 +96,7 @@
             <div class="cell__inner">
               <div class="icon-sample">
                 <igx-icon>pin_drop</igx-icon>
-            </div>
+              </div>
             </div>
           </ng-template>
         </igx-column>
@@ -91,7 +105,7 @@
             <div class="cell__inner">
               <div class="icon-sample">
                 <igx-icon>pin_drop</igx-icon>
-            </div>
+              </div>
             </div>
           </ng-template>
         </igx-column>
@@ -100,7 +114,7 @@
             <div class="cell__inner">
               <div class="icon-sample">
                 <igx-icon>pin_drop</igx-icon>
-            </div>
+              </div>
             </div>
           </ng-template>
         </igx-column>
@@ -109,7 +123,7 @@
             <div class="cell__inner">
               <div class="icon-sample">
                 <igx-icon>pin_drop</igx-icon>
-            </div>
+              </div>
             </div>
           </ng-template>
         </igx-column>
