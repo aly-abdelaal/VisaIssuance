@@ -7,9 +7,8 @@
           <span class="application-title-text"> Bulk Application Processing Search </span>
         </div>
       </div>
-      <div class="row search-controls-container">
+      <div class="search-controls-container">
         <!-- search controls here -->
-        <div class="col-md-12">
           <div class="row">
             <div class="col-md-2">
               <igx-input-group type="search" class="searchbar-1">
@@ -47,7 +46,22 @@
               </igx-date-picker>
             </div>
           </div>
-        </div>
+          <div class="row">
+            <div class="col-md-2">
+              <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+                         [data]="countryLookup" [displayKey]="'name'"
+                         [valueKey]="'id'" placeholder="Select From Nationality"
+                         searchPlaceholder="Search...">
+              </igx-combo>
+            </div>
+            <div class="col-md-2">
+              <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+                         [data]="countryLookup" [displayKey]="'name'"
+                         [valueKey]="'id'" placeholder="Select To Nationality"
+                         searchPlaceholder="Search...">
+              </igx-combo>
+            </div>
+          </div>
       </div>
     </div>
   </div>

@@ -28,8 +28,11 @@ export class LookupService {
     return visaTypes;
   }
 
-  getCountryLookup(): LookupTranslated[] {
+  getCountryLookup(): Lookup[] {
     const countries: LookupTranslated[] = (((CountryJson as any).default) as LookupTranslated[]);
-    return countries;
+    return countries.map(item => {
+      const lookup: Lookup = {id: item.loopkupId, name: item.name.en};
+      return lookup;
+    });
   }
 }

@@ -9,6 +9,6 @@ export interface LookupTranslated {
 }
 
 export interface LookupName {
-  ar: string;
   en: string;
+  ar: string;
 }

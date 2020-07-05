@@ -4,6 +4,7 @@ import {LookupService} from '../../services/lookup/lookup.service';
 import {Application} from '../../services/application/application.model';
 import {Lookup} from '../../services/lookup/lookup.model';
 import {LookupTranslated} from '../../services/lookup/lookup.model';
+import {LookupName} from '../../services/lookup/lookup.model';
 
 @Component({
   selector: 'app-application-overview',
@@ -16,7 +17,7 @@ export class ApplicationOverviewComponent implements OnInit {
   visaTypeLookup: Lookup[];
   applicationStatusLookup: Lookup[];
   applicationPriorityLookup: Lookup[];
-  countryLookup: LookupTranslated[];
+  countryLookup: Lookup[];
   startDate: Date = new Date(Date.now());
   endDate: Date = new Date(Date.now());
 
