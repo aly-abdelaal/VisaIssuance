@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  url = '../../../assets/EmaratechLogo.png';
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSearchClicked(): void {
+
+  }
+
+  onLogoutClicked(): void {
+
   }
 
 }

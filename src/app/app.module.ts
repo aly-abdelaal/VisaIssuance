@@ -6,6 +6,8 @@ import { IgxGridModule } from 'igniteui-angular';
 import { IgxAvatarModule } from 'igniteui-angular';
 import { IgxComboModule } from 'igniteui-angular';
 import { IgxDatePickerModule } from 'igniteui-angular';
+import { IgxCheckboxModule } from 'igniteui-angular';
+import { IgxSelectModule } from 'igniteui-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +19,7 @@ import { NotFound404Component } from './components/not-found404/not-found404.com
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
+import { ApplicationStateIconComponent } from './components/application-overview/application-state-icon/application-state-icon.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,8 @@ import { ApplicationListComponent } from './components/application-overview/appl
     NotFound404Component,
     HeaderComponent,
     FooterComponent,
-    ApplicationListComponent
+    ApplicationListComponent,
+    ApplicationStateIconComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +41,9 @@ import { ApplicationListComponent } from './components/application-overview/appl
     IgxGridModule,
     IgxAvatarModule,
     IgxComboModule,
-    IgxDatePickerModule
+    IgxDatePickerModule,
+    IgxCheckboxModule,
+    IgxSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

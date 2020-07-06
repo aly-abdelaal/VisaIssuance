@@ -1,1 +1,50 @@
-<div class="app-header"></div>
+<div class="container-fluid app-header">
+  <div class="row">
+    <div class="col-md-6">
+      <img class="app-header-logo" src="../../../assets/EmaratechLogo.png">
+    </div>
+    <div class="col-md-6 ml-auto">
+      <div class="row app-header-text">
+        <div class="col-md-2">
+          <span>Bluk: 0</span>
+        </div>
+        <div class="col-md-2">
+          <span>Accepted: 0</span>
+        </div>
+        <div class="col-md-2">
+          <span>Rejected: 0</span>
+        </div>
+        <div class="col-md-4 ml-auto">
+          <span>Sipra (sipra)</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="search-3">
+            <igx-input-group type="search" class="searchbar-1">
+              <igx-prefix>
+                <div class="searchbar-2-prefix">
+                  <igx-icon>search</igx-icon>
+                </div>
+              </igx-prefix>
+              <input igxInput type="text">
+              <label igxLabel>Enter App ID or Number</label>
+            </igx-input-group>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="search-1">
+            <button igxRipple class="search-2" (click)="onSearchClicked()" igxButton="raised">
+              SEARCH
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 ml-auto">
+          <div class="logout">
+            <button class="logout-1" (click)="onLogoutClicked()" igxButton="raised" >LOGOUT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

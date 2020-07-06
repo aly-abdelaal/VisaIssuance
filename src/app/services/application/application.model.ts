@@ -22,7 +22,7 @@ export interface Application {
 }
 
 export enum ProcessingStatus {
-  Pending,
+  Warn = 1,
   Valid,
-  Invalid
+  Error
 }

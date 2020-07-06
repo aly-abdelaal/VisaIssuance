@@ -7,9 +7,9 @@
           <span class="application-title-text"> Bulk Application Processing Search </span>
         </div>
       </div>
-      <div class="search-controls-container">
+      <div class="search-controls-container ">
         <!-- search controls here -->
-          <div class="row">
+          <div class="row form-group">
             <div class="col-md-2">
               <igx-input-group type="search" class="searchbar-1">
                 <input igxInput type="text">
@@ -46,7 +46,7 @@
               </igx-date-picker>
             </div>
           </div>
-          <div class="row">
+          <div class="row form-group">
             <div class="col-md-2">
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
                          [data]="countryLookup" [displayKey]="'name'"
@@ -60,6 +60,38 @@
                          [valueKey]="'id'" placeholder="Select To Nationality"
                          searchPlaceholder="Search...">
               </igx-combo>
+            </div>
+            <div class="col-md-3">
+              <igx-checkbox [(ngModel)]="isAutoLoad" >
+                Auto Load Applications After Save
+              </igx-checkbox>
+            </div>
+            <!--
+            <div class="col-md-1">
+              <igx-select>
+                <igx-select-item value="10">10</igx-select-item>
+                <igx-select-item value="20">20</igx-select-item>
+                <igx-select-item value="30">30</igx-select-item>
+                <igx-select-item value="40">40</igx-select-item>
+              </igx-select>
+            </div>
+
+            <div class="col-md-1">
+              <igx-checkbox [(ngModel)]="isMaxApps" >
+                MaxApps
+              </igx-checkbox>
+            </div>
+            -->
+            <div class="col-md-2 ml-auto">
+              <button igxButton="fab" class="ngx-btn-icon">
+                <igx-icon fontSet="material">filter_list</igx-icon>
+              </button>
+              <button igxButton="fab"  class="ngx-btn-icon">
+                <igx-icon fontSet="material">search</igx-icon>
+              </button>
+              <button igxButton="fab"  class="ngx-btn-icon">
+                <igx-icon fontSet="material">loop</igx-icon>
+              </button>
             </div>
           </div>
       </div>
@@ -75,13 +107,84 @@
   <div class="row application-container">
     <div class="col-md-12">
       <div class="row">
-        <div class="col-md-12">
-          <span class="application-title-text"> Sponsor Information </span>
+        <div class="col-md-12 sponsor-title-text">
+          <span> Sponsor Information </span>
         </div>
       </div>
+      <!-- sponsor information here -->
       <div class="row">
-        <!-- sponsor information here -->
-        <div class="col-md-12">sponsor information here</div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-text padding-left-10">22018881</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-label padding-left-10">Card Number:</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-text">Government 2</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-label">Type:</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-text">Dubai (2)</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-label">Emirate:</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-text">4/27/2029</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-label">Card Expiry Date:</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-text">4/27/2099</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-label">License Expiry Date:</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-text">Awaatif Al Sadek</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <span class="profile-label">Name:</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -119,20 +222,20 @@
         </igx-column>
         <igx-column header="Profile" field="profileMatching" dataType="string">
         </igx-column>
-        <igx-column header="Fee" field="feeStatus" dataType="boolean" [width]="'6%'">
+        <igx-column header="Fee" field="feeStatus" dataType="boolean" [width]="'5%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div class="icon-sample">
-                <igx-icon>check</igx-icon>
+                <app-application-state-icon [status]="cell.value ? 2 : 3"></app-application-state-icon>
               </div>
             </div>
           </ng-template>
         </igx-column>
-        <igx-column header="Documents" field="documentStatus" dataType="boolean" [width]="'6%'">
+        <igx-column header="Documents" field="documentStatus" dataType="boolean" [width]="'5%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div class="icon-sample">
-                <igx-icon>pin_drop</igx-icon>
+                <app-application-state-icon [status]="cell.value ? 2 : 3"></app-application-state-icon>
               </div>
             </div>
           </ng-template>
@@ -141,25 +244,25 @@
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div class="icon-sample">
-                <igx-icon>pin_drop</igx-icon>
+                <app-application-state-icon [status]="cell.value"></app-application-state-icon>
               </div>
             </div>
           </ng-template>
         </igx-column>
-        <igx-column header="Pre-checks" field="preChecksStatus" dataType="number" [width]="'6%'">
+        <igx-column header="Pre-checks" field="preChecksStatus" dataType="number" [width]="'5%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div class="icon-sample">
-                <igx-icon>pin_drop</igx-icon>
+                <app-application-state-icon [status]="cell.value"></app-application-state-icon>
               </div>
             </div>
           </ng-template>
         </igx-column>
-        <igx-column header="Validation" field="validationStatus" dataType="number" [width]="'6%'">
+        <igx-column header="Validation" field="validationStatus" dataType="number" [width]="'5%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
               <div class="icon-sample">
-                <igx-icon>pin_drop</igx-icon>
+                <app-application-state-icon [status]="cell.value"></app-application-state-icon>
               </div>
             </div>
           </ng-template>

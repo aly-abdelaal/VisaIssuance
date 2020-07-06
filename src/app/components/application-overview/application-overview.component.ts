@@ -18,8 +18,12 @@ export class ApplicationOverviewComponent implements OnInit {
   applicationStatusLookup: Lookup[];
   applicationPriorityLookup: Lookup[];
   countryLookup: Lookup[];
+
+  // search parameters
   startDate: Date = new Date(Date.now());
   endDate: Date = new Date(Date.now());
+  isMaxApps = false;
+  isAutoLoad = false;
 
   constructor(applicationService: ApplicationService,
               lookupService: LookupService) {
