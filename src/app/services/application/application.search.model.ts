@@ -4,9 +4,9 @@ export interface ApplicationSearchRequest {
   isMaxApps: false;
   isAutoLoad: false;
   sponsorNumber: number;
-  visaType: number[];
+  visaType: string[];
   applicationStatus: number[];
   applicationPriority: number[];
-  nationalityFrom: number[];
-  nationalityTo: number[];
+  nationalityFrom: string[];
+  nationalityTo: string[];
 }

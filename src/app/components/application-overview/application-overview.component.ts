@@ -53,14 +53,22 @@ export class ApplicationOverviewComponent implements OnInit {
   searchApplications(): void {
     this.applications = this.applicationService.getApplications();
 
-    if (this.searchRequest.sponsorNumber > 0){
-      this.applications = this.applications.filter(
-        item => item.sponsorNumber == this.searchRequest.sponsorNumber);
-    }
+    this.applications = this.applications.filter(
+      item =>
+        (this.searchRequest.sponsorNumber == 0 ||
+         item.sponsorNumber as number == this.searchRequest.sponsorNumber as number)
+        &&
+        (this.searchRequest.visaType.length === 0 ||
+         this.searchRequest.visaType.includes(item.visaTypeId.toString()))
+        &&
+        (this.searchRequest.nationalityFrom.length === 0 ||
+         this.searchRequest.nationalityFrom.includes(item.nationalityId.toString()))
+        &&
+        (this.searchRequest.nationalityTo.length === 0 ||
+         this.searchRequest.nationalityTo.includes(item.nationalityId.toString()))
+      );
   }
 
   filterApplicatoins(): void {
-    this.applications = this.applications.filter(
-      item => item.sponsorNumber == this.searchRequest.sponsorNumber);
   }
 }
