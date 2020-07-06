@@ -20,6 +20,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
 import { ApplicationStateIconComponent } from './components/application-overview/application-state-icon/application-state-icon.component';
+import { HcCommitteeApplicationComponent } from './components/hc-committee-application/hc-committee-application.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ApplicationStateIconComponent } from './components/application-overview
     HeaderComponent,
     FooterComponent,
     ApplicationListComponent,
-    ApplicationStateIconComponent
+    ApplicationStateIconComponent,
+    HcCommitteeApplicationComponent
   ],
   imports: [
     BrowserModule,
