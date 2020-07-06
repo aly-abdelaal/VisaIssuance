@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {ApplicationService} from '../../services/application/application.service';
-import {LookupService} from '../../services/lookup/lookup.service';
-import {Application} from '../../services/application/application.model';
-import {Lookup} from '../../services/lookup/lookup.model';
-import {LookupTranslated} from '../../services/lookup/lookup.model';
-import {LookupName} from '../../services/lookup/lookup.model';
+import { ApplicationService } from '../../services/application/application.service';
+import { LookupService } from '../../services/lookup/lookup.service';
+import { Application } from '../../services/application/application.model';
+import { Lookup } from '../../services/lookup/lookup.model';
+import { ApplicationSearchRequest } from '../../services/application/application.search.model';
 
 @Component({
   selector: 'app-application-overview',
@@ -13,6 +12,7 @@ import {LookupName} from '../../services/lookup/lookup.model';
 })
 export class ApplicationOverviewComponent implements OnInit {
 
+  applicationService: ApplicationService;
   applications: Application[];
   visaTypeLookup: Lookup[];
   applicationStatusLookup: Lookup[];
@@ -20,14 +20,12 @@ export class ApplicationOverviewComponent implements OnInit {
   countryLookup: Lookup[];
 
   // search parameters
-  startDate: Date = new Date(Date.now());
-  endDate: Date = new Date(Date.now());
-  isMaxApps = false;
-  isAutoLoad = false;
+  searchRequest: ApplicationSearchRequest;
 
   constructor(applicationService: ApplicationService,
               lookupService: LookupService) {
-    this.applications = applicationService.getApplications();
+    this.initSearchRequest();
+    this.applicationService = applicationService;
     this.visaTypeLookup = lookupService.getVisaTypeLookup();
     this.applicationStatusLookup = lookupService.getApplicationStatusLookup();
     this.applicationPriorityLookup = lookupService.getApplicationPriorityLookup();
@@ -37,4 +35,32 @@ export class ApplicationOverviewComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  initSearchRequest(): void {
+    this.searchRequest = {
+      applicationPriority: [],
+      applicationStatus: [],
+      endDate: new Date(Date.now()),
+      isAutoLoad: false,
+      isMaxApps: false,
+      nationalityFrom: [],
+      nationalityTo: [],
+      sponsorNumber: 0,
+      startDate: new Date(Date.now()),
+      visaType: []
+    };
+  }
+
+  searchApplications(): void {
+    this.applications = this.applicationService.getApplications();
+
+    if (this.searchRequest.sponsorNumber > 0){
+      this.applications = this.applications.filter(
+        item => item.sponsorNumber == this.searchRequest.sponsorNumber);
+    }
+  }
+
+  filterApplicatoins(): void {
+    this.applications = this.applications.filter(
+      item => item.sponsorNumber == this.searchRequest.sponsorNumber);
+  }
 }

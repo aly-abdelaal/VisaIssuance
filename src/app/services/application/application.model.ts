@@ -9,6 +9,7 @@ export interface Application {
   nationalityId: number;
   nationality: string;
   profession: string;
+  visaTypeId: number;
   visaType: string;
   profileMatching: string;
   feeStatus: boolean;
@@ -19,6 +20,8 @@ export interface Application {
   finalStatus: number;
   finalStatusName: string;
   imageUrl: string;
+  sponsorNumber: number;
+  applicationPriority: number;
 }
 
 export enum ProcessingStatus {

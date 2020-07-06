@@ -12,7 +12,7 @@
           <div class="row form-group">
             <div class="col-md-2">
               <igx-input-group type="search" class="searchbar-1">
-                <input igxInput type="text">
+                <input igxInput  [(ngModel)]="searchRequest.sponsorNumber" type="text">
                 <label igxLabel>Sponsor File Number</label>
               </igx-input-group>
             </div>
@@ -20,6 +20,7 @@
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
                          [data]="visaTypeLookup" [displayKey]="'name'"
                          [valueKey]="'id'" placeholder="Select Visa Type"
+                         [(ngModel)]="searchRequest.visaType"
                          searchPlaceholder="Search...">
               </igx-combo>
             </div>
@@ -27,6 +28,7 @@
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
                          [data]="applicationStatusLookup" [displayKey]="'name'"
                          [valueKey]="'id'" placeholder="Select Application Status"
+                         [(ngModel)]="searchRequest.applicationStatus"
                          searchPlaceholder="Search...">
               </igx-combo>
             </div>
@@ -34,15 +36,16 @@
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
                          [data]="applicationPriorityLookup" [displayKey]="'name'"
                          [valueKey]="'id'" placeholder="Select Application Priority"
+                         [(ngModel)]="searchRequest.applicationPriority"
                          searchPlaceholder="Search...">
               </igx-combo>
             </div>
             <div class="col-md-2">
-              <igx-date-picker [(ngModel)]="startDate">
+              <igx-date-picker [(ngModel)]="searchRequest.startDate">
               </igx-date-picker>
             </div>
             <div class="col-md-2">
-              <igx-date-picker [(ngModel)]="endDate">
+              <igx-date-picker [(ngModel)]="searchRequest.endDate">
               </igx-date-picker>
             </div>
           </div>
@@ -51,6 +54,7 @@
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
                          [data]="countryLookup" [displayKey]="'name'"
                          [valueKey]="'id'" placeholder="Select From Nationality"
+                         [(ngModel)]="searchRequest.nationalityFrom"
                          searchPlaceholder="Search...">
               </igx-combo>
             </div>
@@ -58,11 +62,12 @@
               <igx-combo #combo class="combo" [itemsMaxHeight]="255"
                          [data]="countryLookup" [displayKey]="'name'"
                          [valueKey]="'id'" placeholder="Select To Nationality"
+                         [(ngModel)]="searchRequest.nationalityTo"
                          searchPlaceholder="Search...">
               </igx-combo>
             </div>
             <div class="col-md-3">
-              <igx-checkbox [(ngModel)]="isAutoLoad" >
+              <igx-checkbox [(ngModel)]="searchRequest.isAutoLoad" >
                 Auto Load Applications After Save
               </igx-checkbox>
             </div>
@@ -86,10 +91,10 @@
               <button igxButton="fab" class="ngx-btn-icon">
                 <igx-icon fontSet="material">filter_list</igx-icon>
               </button>
-              <button igxButton="fab"  class="ngx-btn-icon">
+              <button igxButton="fab" (click)="searchApplications()" class="ngx-btn-icon">
                 <igx-icon fontSet="material">search</igx-icon>
               </button>
-              <button igxButton="fab"  class="ngx-btn-icon">
+              <button igxButton="fab" (click)="initSearchRequest()" class="ngx-btn-icon">
                 <igx-icon fontSet="material">loop</igx-icon>
               </button>
             </div>
