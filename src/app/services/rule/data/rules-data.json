@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "message": "Is establishment card expired",
+    "result": "../../../assets/tick.jpg",
+    "type": "NORMAL",
+    "executedBy": "Admin"
+  },
+  {
+    "id": 2,
+    "message": "Does an active residency already existing in the system for the sponsor",
+    "result": "../../../assets/tick.jpg",
+    "type": "NORMAL",
+    "executedBy": "Admin"
+  },
+  {
+    "id": 3,
+    "message": "Does an active permit already existing in the system for the sponsor",
+    "result": "../../../assets/tick.jpg",
+    "type": "NORMAL",
+    "executedBy": "Admin"
+  },
+  {
+    "id": 4,
+    "message": "Is an active application already exists for the sponsored in the system",
+    "result": "../../../assets/tick.jpg",
+    "type": "NORMAL",
+    "executedBy": "Admin"
+  }
+]

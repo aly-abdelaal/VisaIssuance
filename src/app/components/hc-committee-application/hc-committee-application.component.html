@@ -1,1 +1,216 @@
-<p>hc-committee-application works!</p>
+
+<div class="container-fluid">
+
+  <div class="row">
+      <div class="section-title">
+        <span class="section-title-text">Rule Result</span>
+      </div>
+
+  <igx-grid [data]="rules"
+                igxPreventDocumentScroll
+                displayDensity="cosy">
+        <igx-column header="Rule Message" field="message" dataType="string" >
+        </igx-column>
+        <igx-column header="Rule Result" field="result" dataType="string" [width]="'8%'" >
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <igx-avatar [src]="cell.row.rowData.result" roundShape="true" size="small"> </igx-avatar>
+            </div>
+          </ng-template>
+        </igx-column>
+        <igx-column header="Rule type " field="type" dataType="string" sortable="true"  [width]="'20%'" >
+        </igx-column>
+        <igx-column header="Execute by" field="executedBy" dataType="string" sortable="true"  [width]="'20%'" >
+        </igx-column>
+      </igx-grid>
+
+</div>
+<div class="row">
+  <div class="section-title">
+    <span class="section-title-text">Application Information</span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-2">
+    <img
+    width="200"
+    height="200"
+    alt="Angular Logo"
+    src="https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png"
+  />
+  </div>
+
+  <div class="col-md-4 fields">
+    <div class="row">
+      <span class="field-value-text">New Residence</span>
+      <span class="field-key-text">Type</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">19 Apr 2020 12:00:02 PM</span>
+      <span class="field-key-text">Posted</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Dubai</span>
+      <span class="field-key-text">Emirate</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">remark</span>
+      <span class="field-key-text">IQC comment</span>
+    </div>
+  </div>
+
+  <div class="col-md-4 fields">
+    <div class="row">
+      <span class="field-value-text">20120200100013452345</span>
+      <span class="field-key-text">ID</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Employment</span>
+      <span class="field-key-text">Visa Type</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Escalated to Humanitarian Commitie</span>
+      <span class="field-key-text">Proccess status</span>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="section-title">
+    <span class="section-title-text">Sponsored Information</span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-5 fields">
+    <div class="row">
+      <span class="field-value-text"></span>
+      <span class="field-key-text">Residence No</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Ali</span>
+      <span class="field-key-text">Name English</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Touseef Ahmed</span>
+      <span class="field-key-text">Profile Name english</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">India</span>
+      <span class="field-key-text">Nationality</span>
+    </div>
+
+    <div class="row">
+      <span class="field-value-text">31 Oct 2000</span>
+      <span class="field-key-text">Birth Date</span>
+    </div>
+
+    <div class="row">
+      <span class="field-value-text"></span>
+      <span class="field-key-text">Birth Place</span>
+    </div>
+
+    <div class="row">
+      <span class="field-value-text">Single</span>
+      <span class="field-key-text">Social Status</span>
+    </div>
+
+    <div class="row">
+      <span class="field-value-text">NK12345443</span>
+      <span class="field-key-text">Passport Number</span>
+    </div>
+
+    <div class="row">
+      <span class="field-value-text">India</span>
+      <span class="field-key-text">Passport Issue Country</span>
+    </div>
+  </div>
+
+  <div class="col-md-5 fields">
+    <div class="row">
+      <span class="field-value-text">20120200100013452345</span>
+      <span class="field-key-text">Visa Number</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Ali</span>
+      <span class="field-key-text">Name (ar)</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Touseef Ahmed</span>
+      <span class="field-key-text">Profile Name (ar)</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Male</span>
+      <span class="field-key-text">Gender</span>
+    </div>
+
+    <div class="row">
+      <span class="field-value-text">None</span>
+      <span class="field-key-text">Profession</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text"></span>
+      <span class="field-key-text">Palce of Birth (ar)</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Syria</span>
+      <span class="field-key-text">Birth country </span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Son</span>
+      <span class="field-key-text">Relationship</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Normal</span>
+      <span class="field-key-text">Passport Type</span>
+    </div>
+    <div class="row">
+      <span class="field-value-text">Not Disabled</span>
+      <span class="field-key-text">Disability Type</span>
+    </div>
+  </div>
+</div>
+<!--
+<button igxRipple class="search-2" (click)="form.open()" igxButton="raised">
+  Process
+</button>
+-->
+</div>
+<!--
+<igx-dialog #form [closeOnOutsideSelect]="true">
+  <igx-dialog-title>
+      <div class="dialog-container">
+          <div class="dialog-title">Action</div>
+      </div>
+  </igx-dialog-title>
+
+  <form class="signInForm">
+    <div >
+      <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+                 [data]="actionLookup" [displayKey]="'name'"
+                 [valueKey]="'id'" placeholder="Select Action"
+                 [(ngModel)]="Action.type"
+                 searchPlaceholder="Search...">
+      </igx-combo>
+    </div>
+    <div >
+      <igx-input-group type="comment" class="comment-1">
+        <input igxInput  [(ngModel)]="Action.comment" type="text">
+        <label igxLabel>Comments</label>
+      </igx-input-group>
+    </div>
+    <div>
+      <igx-combo #combo class="combo" [itemsMaxHeight]="255"
+                 [data]="reasonLookup" [displayKey]="'name'"
+                 [valueKey]="'id'" placeholder="Select reason"
+                 [(ngModel)]="Action.reason"
+                 searchPlaceholder="Search...">
+      </igx-combo>
+    </div>
+  </form>
+
+  <div igxDialogActions>
+      <button igxButton (click)="form.close()">CANCEL</button>
+      <button igxButton (click)="form.close()">SIGN IN</button>
+  </div>
+</igx-dialog>
+-->
