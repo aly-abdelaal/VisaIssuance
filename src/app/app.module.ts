@@ -9,6 +9,7 @@ import { IgxDatePickerModule } from 'igniteui-angular';
 import { IgxCheckboxModule } from 'igniteui-angular';
 import { IgxSelectModule } from 'igniteui-angular';
 import { IgxTabsModule } from 'igniteui-angular';
+import { IgxIconModule } from 'igniteui-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -48,6 +49,7 @@ import { ApplicationDetailsModule } from './components/application-details/appli
     IgxCheckboxModule,
     IgxSelectModule,
     IgxTabsModule,
+    IgxIconModule,
     ApplicationDetailsModule,
     AppRoutingModule
   ],
