@@ -16,7 +16,10 @@ export class HeaderComponent implements OnInit {
   }
 
   onSearchClicked(): void {
-    this.router.navigate(['../application-details', this.appliactionNumber]);
+    if (this.appliactionNumber) {
+      this.router.navigate(['../application-details', this.appliactionNumber]);
+    }
+
   }
 
   onLogoutClicked(): void {

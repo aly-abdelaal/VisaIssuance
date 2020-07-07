@@ -1,1 +1,46 @@
-<p>application-details works!</p>
+<app-sponsor-infromation></app-sponsor-infromation>
+<div class="row row-no-gutters">
+  <div class="col-md-12 seprator-dark">
+  </div>
+</div>
+<br/>
+<div class="container-fluid parent">
+  <div class="row">
+    <!-- sponsor info, etc -->
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12">
+          <igx-tabs>
+            <igx-tabs-group label="SPONSOR">
+              <app-sponsor-info-card></app-sponsor-info-card>
+            </igx-tabs-group>
+            <igx-tabs-group label="SPONSORED">
+              <app-sponsored-info-card></app-sponsored-info-card>
+            </igx-tabs-group>
+          </igx-tabs>
+        </div>
+      </div>
+    </div>
+    <!-- docs, fees, etc-->
+    <div class="col-md-6">
+      <igx-tabs>
+        <igx-tabs-group label="SEARCH PPS">
+          <app-profile-card></app-profile-card>
+        </igx-tabs-group>
+        <igx-tabs-group label="DOCUMENTS">
+          <app-documents></app-documents>
+        </igx-tabs-group>
+        <igx-tabs-group label="FEES">
+          <span>FEES HERE</span>
+        </igx-tabs-group>
+        <igx-tabs-group label="SYSTEM VALIDATIONS">
+          <span>DATA REUSE HERE</span>
+        </igx-tabs-group>
+        <igx-tabs-group label="BUSINESS VALIDATIONS">
+          <span>DATA REUSE HERE</span>
+        </igx-tabs-group>
+      </igx-tabs>
+    </div>
+  </div>
+</div>
+

@@ -219,6 +219,13 @@
           </ng-template>
         </igx-column>
         <igx-column header="Applicant Name" field="applicantName" dataType="string" sortable="true">
+          <ng-template igxCell let-cell="cell">
+            <div class="cell__inner">
+              <a [routerLink]="['../committee-application/', cell.row.rowData.id]">
+                <div>{{ cell.row.rowData.applicantName }}</div>
+              </a>
+            </div>
+          </ng-template>
         </igx-column>
         <igx-column header="Gender" field="gender" dataType="string" [width]="'6%'" sortable="true">
         </igx-column>

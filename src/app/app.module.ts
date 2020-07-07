@@ -9,6 +9,8 @@ import { IgxDatePickerModule } from 'igniteui-angular';
 import { IgxCheckboxModule } from 'igniteui-angular';
 import { IgxSelectModule } from 'igniteui-angular';
 import { IgxDialogModule } from 'igniteui-angular';
+import { IgxTabsModule } from 'igniteui-angular';
+import { IgxIconModule } from 'igniteui-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +24,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
 import { ApplicationStateIconComponent } from './components/application-overview/application-state-icon/application-state-icon.component';
 import { HcCommitteeApplicationComponent } from './components/hc-committee-application/hc-committee-application.component';
-import { ApplicationDetailsComponent } from './components/application-details/application-details.component';
+import { ApplicationDetailsModule } from './components/application-details/application-details.module';
 
 @NgModule({
   declarations: [
@@ -36,12 +38,10 @@ import { ApplicationDetailsComponent } from './components/application-details/ap
     FooterComponent,
     ApplicationListComponent,
     ApplicationStateIconComponent,
-    HcCommitteeApplicationComponent,
-    ApplicationDetailsComponent
+    HcCommitteeApplicationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     IgxGridModule,
     IgxAvatarModule,
@@ -49,6 +49,10 @@ import { ApplicationDetailsComponent } from './components/application-details/ap
     IgxDatePickerModule,
     IgxCheckboxModule,
     IgxSelectModule,
+    IgxTabsModule,
+    IgxIconModule,
+    ApplicationDetailsModule,
+    AppRoutingModule,
     IgxDialogModule
   ],
   providers: [],

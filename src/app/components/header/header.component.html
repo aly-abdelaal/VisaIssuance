@@ -1,9 +1,10 @@
 <div class="container-fluid app-header">
   <div class="row">
     <div class="col-md-6">
-      <img class="app-header-logo"
-      routerLink="/"
-            src="../../../assets/EmaratechLogo.png">
+      <a routerLink="/">
+        <img class="app-header-logo"
+             src="./assets/EmaratechLogo.png">
+      </a>
     </div>
     <div class="col-md-6 ml-auto">
       <div class="row app-header-text">
@@ -29,7 +30,7 @@
                   <igx-icon>search</igx-icon>
                 </div>
               </igx-prefix>
-              <input igxInput [(ngModel)]="appliactionNumber" type="text">
+              <input igxInput [(ngModel)]="appliactionNumber" required type="text">
               <label igxLabel>Enter App ID or Number</label>
             </igx-input-group>
           </div>

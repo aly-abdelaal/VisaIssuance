@@ -1,0 +1,28 @@
+<div class="scroll">
+<div class="carousel-animation-wrapper">
+  <div class="list-wrapper">
+    <igx-list displayDensity="compact">
+      <igx-list-item *ngFor="let item of slides; let i=index"
+                      [ngClass]="{'disabled': i !== currentIndex }">
+        <igx-avatar igxListThumbnail src="{{item.thumb}}" size="large">
+        </igx-avatar>
+      </igx-list-item>
+    </igx-list>
+  </div>
+  <div class="carousel-wrapper">
+    <igx-carousel [navigation]="false" [pause]="false" animationType="fade" [interval]="4000">
+      <igx-slide #slide *ngFor="let item of slides">
+        <div class="description">{{ item.description }}</div>
+        <img src="{{item.image}}" class="doc-img"/>
+        <!--
+        <div style="height: 100%" [ngStyle]="slideStyle(item.image)">
+          <section class="promo-price" [ngClass]="{'animated': slide.active}">
+            <div class="description">{{ item.description }}</div>
+          </section>
+        -->
+      </igx-slide>
+      <ng-template igxCarouselIndicator></ng-template>
+    </igx-carousel>
+  </div>
+</div>
+</div>
