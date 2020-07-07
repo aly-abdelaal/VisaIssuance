@@ -17,13 +17,15 @@ import { SponsorInfromationComponent } from './sponsor-infromation/sponsor-infro
 import { SponsorInfoCardComponent } from './sponsor-info-card/sponsor-info-card.component';
 import { SponsoredInfoCardComponent } from './sponsored-info-card/sponsored-info-card.component';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
+import { PersonalInformationComponent } from './personal-information/personal-information.component';
 
 @NgModule({
   declarations: [ApplicationDetailsComponent,
     SponsorInfromationComponent,
     SponsorInfoCardComponent,
     SponsoredInfoCardComponent,
-    ProfileCardComponent],
+    ProfileCardComponent,
+    PersonalInformationComponent],
   imports: [
     CommonModule,
     ApplicationDetailsRoutingModule,
