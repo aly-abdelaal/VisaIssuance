@@ -11,6 +11,8 @@ import { IgxComboModule } from 'igniteui-angular';
 import { IgxDatePickerModule } from 'igniteui-angular';
 import { IgxCheckboxModule } from 'igniteui-angular';
 import { IgxSelectModule } from 'igniteui-angular';
+import { IgxCarouselModule } from 'igniteui-angular';
+import { IgxListModule } from 'igniteui-angular';
 
 import { ApplicationDetailsComponent } from './application-details.component';
 import { SponsorInfromationComponent } from './sponsor-infromation/sponsor-infromation.component';
@@ -18,6 +20,7 @@ import { SponsorInfoCardComponent } from './sponsor-info-card/sponsor-info-card.
 import { SponsoredInfoCardComponent } from './sponsored-info-card/sponsored-info-card.component';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
+import { DocumentsComponent } from './documents/documents.component';
 
 @NgModule({
   declarations: [ApplicationDetailsComponent,
@@ -25,7 +28,8 @@ import { PersonalInformationComponent } from './personal-information/personal-in
     SponsorInfoCardComponent,
     SponsoredInfoCardComponent,
     ProfileCardComponent,
-    PersonalInformationComponent],
+    PersonalInformationComponent,
+    DocumentsComponent],
   imports: [
     CommonModule,
     ApplicationDetailsRoutingModule,
@@ -37,7 +41,9 @@ import { PersonalInformationComponent } from './personal-information/personal-in
     IgxSelectModule,
     IgxTabsModule,
     IgxIconModule,
-    IgxCardModule
+    IgxCardModule,
+    IgxCarouselModule,
+    IgxListModule
   ]
 })
 export class ApplicationDetailsModule { }

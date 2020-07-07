@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProfileCardComponent implements OnInit {
 
   horizontal = true;
-  imageURL = 'https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png';
+  imageURL = 'https://facesymmetry.fun/images/person/mohamed-salah.jpg';
 
   @Input() isSearch: boolean;
 
