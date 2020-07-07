@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 import { ApplicationDetailsComponent } from './application-details.component';
 import { SponsorInfromationComponent } from './sponsor-infromation/sponsor-infromation.component';
 import { ApplicationDetailsRoutingModule } from './application-details-routing.module';
+import { SponsorInfoCardComponent } from './sponsor-info-card/sponsor-info-card.component';
 
 @NgModule({
   declarations: [ApplicationDetailsComponent,
-    SponsorInfromationComponent],
+    SponsorInfromationComponent,
+    SponsorInfoCardComponent],
   imports: [
     CommonModule,
     ApplicationDetailsRoutingModule
