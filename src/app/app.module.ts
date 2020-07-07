@@ -21,6 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
 import { ApplicationStateIconComponent } from './components/application-overview/application-state-icon/application-state-icon.component';
 import { HcCommitteeApplicationComponent } from './components/hc-committee-application/hc-committee-application.component';
+import { ApplicationDetailsComponent } from './components/application-details/application-details.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HcCommitteeApplicationComponent } from './components/hc-committee-appli
     FooterComponent,
     ApplicationListComponent,
     ApplicationStateIconComponent,
-    HcCommitteeApplicationComponent
+    HcCommitteeApplicationComponent,
+    ApplicationDetailsComponent
   ],
   imports: [
     BrowserModule,

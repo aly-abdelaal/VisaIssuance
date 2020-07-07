@@ -196,14 +196,21 @@
 
   <div class="row applciations-grid-result">
     <div class="col-md-12">
-      <igx-grid [data]="applications" igxPreventDocumentScroll [paging]="true" [perPage]="10">
+      <igx-grid [data]="applications"
+                igxPreventDocumentScroll
+                [paging]="true"
+                [perPage]="10"
+                displayDensity="cosy">
         <igx-column [width]="'1%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">
-              <div>{{ cell.row.index + 1 }}</div>
+              <a [routerLink]="['../committee-application/', cell.row.rowData.id]">
+                <div>{{ cell.row.index + 1 }}</div>
+              </a>
             </div>
           </ng-template>
         </igx-column>
+
         <igx-column header="Picture" field="imageUrl" dataType="string" [width]="'5%'">
           <ng-template igxCell let-cell="cell">
             <div class="cell__inner">

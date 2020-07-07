@@ -69,6 +69,4 @@ export class ApplicationOverviewComponent implements OnInit {
       );
   }
 
-  filterApplicatoins(): void {
-  }
 }
