@@ -1,0 +1,70 @@
+<igx-card [horizontal]="horizontal"
+          type="outlined"
+          [ngClass]="{'result-background': !isSearch}">
+  <igx-card-header>
+    <div class="row row-no-gutters">
+      <div class="col-md-3 no-gutters">
+          <img [src]="imageURL" class="profile-photo">
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-12">
+            <span>سودة العبد الله منصوري</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <span>Sawada al-Abdalla Mansouri</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <span>Nationality: Egypt</span>
+          </div>
+        </div>
+        <div class="row" *ngIf="!isSearch">
+          <div class="col-md-12">
+            <span>Salary: 150000</span>
+          </div>
+        </div>
+        <div class="row" *ngIf="isSearch">
+          <div class="col-md-12">
+            <span>Profession: Football Player</span>
+          </div>
+        </div>
+        <div class="row" *ngIf="!isSearch">
+          <div class="col-md-12">
+            <span>UDB No.: 69458509</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </igx-card-header>
+
+  <igx-card-content>
+    <div class="row">
+      <div class="col-md-12">
+        <span>Nationality: Egypt</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <span>Salary: 150000</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <span>Profession: Football Player</span>
+      </div>
+    </div>
+  </igx-card-content>
+
+  <igx-card-actions *ngIf="isSearch" layout="justify" [vertical]="false">
+    <button igxButton="icon" igxRipple  ="true">
+      <igx-icon>account_circle</igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple igxRippleCentered="true">
+      <igx-icon>search</igx-icon>
+    </button>
+  </igx-card-actions>
+</igx-card>

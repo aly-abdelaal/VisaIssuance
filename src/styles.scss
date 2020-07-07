@@ -58,3 +58,12 @@ letter-spacing: 0.01em;
 line-height: 24px;
 font-weight: 600;
 }
+
+.parent .igx-tabs__content-fixed {
+  padding: 10px;
+  box-shadow: 0px 0px 3px #ccc;
+}
+
+.parent .igx-tabs__header {
+  box-shadow: none;
+}

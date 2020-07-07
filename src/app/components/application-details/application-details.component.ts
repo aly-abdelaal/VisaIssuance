@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApplicationDetailsComponent implements OnInit {
 
+  isSearch = true;
   constructor() { }
 
   ngOnInit(): void {

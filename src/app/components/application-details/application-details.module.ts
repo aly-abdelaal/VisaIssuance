@@ -16,12 +16,14 @@ import { ApplicationDetailsComponent } from './application-details.component';
 import { SponsorInfromationComponent } from './sponsor-infromation/sponsor-infromation.component';
 import { SponsorInfoCardComponent } from './sponsor-info-card/sponsor-info-card.component';
 import { SponsoredInfoCardComponent } from './sponsored-info-card/sponsored-info-card.component';
+import { ProfileCardComponent } from './profile-card/profile-card.component';
 
 @NgModule({
   declarations: [ApplicationDetailsComponent,
     SponsorInfromationComponent,
     SponsorInfoCardComponent,
-    SponsoredInfoCardComponent],
+    SponsoredInfoCardComponent,
+    ProfileCardComponent],
   imports: [
     CommonModule,
     ApplicationDetailsRoutingModule,

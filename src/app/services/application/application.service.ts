@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 import {Application} from './application.model';
 import { Applications } from './mock-applications';
-import * as applicationsJson from './/data/applications-data.json';
+import * as applicationsJson from './data/applications-data.json';
 
 @Injectable({
   providedIn: 'root'
