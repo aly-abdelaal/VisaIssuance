@@ -21,7 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ApplicationListComponent } from './components/application-overview/application-list/application-list.component';
 import { ApplicationStateIconComponent } from './components/application-overview/application-state-icon/application-state-icon.component';
 import { HcCommitteeApplicationComponent } from './components/hc-committee-application/hc-committee-application.component';
-import { ApplicationDetailsComponent } from './components/application-details/application-details.component';
+import { ApplicationDetailsModule } from './components/application-details/application-details.module';
 
 @NgModule({
   declarations: [
@@ -35,19 +35,19 @@ import { ApplicationDetailsComponent } from './components/application-details/ap
     FooterComponent,
     ApplicationListComponent,
     ApplicationStateIconComponent,
-    HcCommitteeApplicationComponent,
-    ApplicationDetailsComponent
+    HcCommitteeApplicationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     IgxGridModule,
     IgxAvatarModule,
     IgxComboModule,
     IgxDatePickerModule,
     IgxCheckboxModule,
-    IgxSelectModule
+    IgxSelectModule,
+    ApplicationDetailsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

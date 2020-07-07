@@ -16,3 +16,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 	background-blend-mode: lighten, saturation, normal;
 	background-image: linear-gradient(#FFFFFFBF 0%, #FFFFFFBF 100%), linear-gradient(#FFFFFF1A 0%, #FFFFFF1A 100%), linear-gradient(#0099FF 0%, #0099FF 100%);
 }
+
+.title-text {
+  line-height: 18px;
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  color: #0000009e;
+  text-align: left;
+  vertical-align: center;
+  margin-bottom: 10px;
+}
