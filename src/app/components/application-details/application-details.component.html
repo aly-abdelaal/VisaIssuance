@@ -3,7 +3,7 @@
   <div class="col-md-12 seprator-dark">
   </div>
 </div>
-<br/>
+<br />
 <div class="container-fluid parent">
   <div class="row">
     <!-- sponsor info, etc -->
@@ -31,7 +31,11 @@
           <app-documents></app-documents>
         </igx-tabs-group>
         <igx-tabs-group label="FEES">
-          <span>FEES HERE</span>
+          <igx-grid #grid1 [data]="fees" [autoGenerate]="false">
+            <igx-column field="name" [sortable]="true" header="Fee"></igx-column>
+            <igx-column field="amount" [sortable]="true" header="Amount" [filterable]="false">
+            </igx-column>
+          </igx-grid>
         </igx-tabs-group>
         <igx-tabs-group label="SYSTEM VALIDATIONS">
           <span>DATA REUSE HERE</span>
@@ -43,4 +47,3 @@
     </div>
   </div>
 </div>
-
